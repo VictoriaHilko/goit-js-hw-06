@@ -9,7 +9,7 @@ const incrementAction = () => {
     counterValue += 1;
 };
 
-const decrementAction  = () => {
+const decrementAction = () => {
     counterValue -= 1;
 };
 

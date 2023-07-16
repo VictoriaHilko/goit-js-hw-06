@@ -19,6 +19,6 @@ const images = [
 const markup = images
   .map((technology) => `<li class ="list-item"><img src="${technology.url}" alt="${technology.alt}" width="200" heigth="300"></li>`)
   .join("");
-  galleryList.insertAdjacentHTML("beforeend", markup);
+galleryList.insertAdjacentHTML("beforeend", markup);
 
 

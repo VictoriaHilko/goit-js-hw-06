@@ -4,10 +4,10 @@ const userData = {};
 
 loginForm.addEventListener('submit', onSubmitForm);
 
-function onSubmitForm (event) {
+function onSubmitForm(event) {
     event.preventDefault();
 
-    const {email, password} = event.currentTarget;
+    const { email, password } = event.currentTarget;
 
     if (email.value === '' || password.value === '') {
         alert('Please, fill all the fields of form!');
@@ -18,5 +18,5 @@ function onSubmitForm (event) {
 
     console.log(userData);
 
-    event.currentTarget.reset();    
+    event.currentTarget.reset();
 }

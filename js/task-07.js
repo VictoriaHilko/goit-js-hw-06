@@ -4,7 +4,7 @@ const text = document.querySelector('#text');
 
 sizeController.addEventListener('input', onChange);
 
-function onChange(event){
+function onChange(event) {
     console.log(event.currentTarget.value);
     text.style.fontSize = `${event.currentTarget.value}px`;
 }

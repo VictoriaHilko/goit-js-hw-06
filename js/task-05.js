@@ -5,6 +5,6 @@ const emptyName = 'Anonymous';
 
 userName.addEventListener('input', onInputName);
 
-function onInputName (event) {
+function onInputName(event) {
     helloMessage.textContent = event.currentTarget.value || emptyName;
 }
