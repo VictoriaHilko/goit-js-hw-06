@@ -10,7 +10,7 @@ function onSubmitForm(event) {
     const { email, password } = event.currentTarget;
 
     if (email.value === '' || password.value === '') {
-        alert('Please, fill all the fields of form!');
+        return alert('Please, fill all the fields of form!');
     } else {
         userData.key = email.value;
         userData.value = password.value;
